@@ -1,45 +1,47 @@
-# Q1
+#Q0
 
-# def round_to_two_places(num):
-#     """Return the given number rounded to two decimal places. 
-    
-#     >>> round_to_two_places(3.14159)
-#     3.14
-#     """
-#     return round(num,2)
-#     pass
+# create a variable called color with an appropriate value on the line below
+# (Remember, strings in Python must be enclosed in 'single' or "double" quotes)
+# color = 'blue'
+
+# # Check your answer
+# q0.check()
+
+# #Q1
+
+# pi = 3.14159 # approximate
+# diameter = 3
+
+# # Create a variable called 'radius' equal to half the diameter
+# radius = diameter / 2
+
+# # Create a variable called 'area', using the formula for the area of a circle: pi times the radius square
+# area = pi * (radius ** 2)
 
 # # Check your answer
 # q1.check()
 
-# Q2
+# #Q2
 
-# round(356,-2) 
-# #output : 400
-# round(347,-1)
-# #output : 350
+# a = [1, 2, 3]
+# b = [3, 2, 1]
+# q2.store_original_ids()
 
-# Q3
-
-# def to_smash(total_candies,nfriends = 3):
-#     """Return the number of leftover candies that must be smashed after distributing
-#     the given number of candies evenly between 3 or given no of friends.
-    
-#     >>> to_smash(91)
-#     1
-#     """
-#     return total_candies % nfriends
+# temp = a
+# a = b
+# b = temp
 
 # # Check your answer
-# q3.check()
+# q2.check()
 
-# Q4
+# #Q3
 
-# #finding errors
+# # Variables representing the number of candies collected by alice, bob, and carol
+# alice_candies = 121
+# bob_candies = 77
+# carol_candies = 109
 
-# ruound_to_two_places(9.9999) #NameError
+# to_smash = (alice_candies + bob_candies + carol_candies) % 3
 
-# x = -10
-# y = 5
-# #Which of the two variables above has the smallest absolute value?
-# smallest_abs = min(abs(x, y)) #TypeError
+# # Check your answer
+# q4.check()
